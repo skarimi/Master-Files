@@ -1,3 +1,66 @@
+@article{1Pecina:2014,
+author = {Pecina, Pavel and Du\v{s}ek, Ond\v{r}ej and Goeuriot, Lorraine and Haji\v{c}, Jan and Hlav\'{a}\v{c}ov\'{a}, Jaroslava and Jones, Gareth J. F. and Kelly, Liadh and Leveling, Johannes and Mare\v{c}ek, David and Nov\'{a}k, Michal and Popel, Martin and Rosa, Rudolf and Tamchyna, Ale\v{s} and Ure\v{s}ov\'{a}, Zde\v{n}ka},
+title = {Adaptation of machine translation for multilingual information retrieval in the medical domain},
+year = {2014},
+volume = {61},
+number = {3},
+url = {https://doi.org/10.1016/j.artmed.2014.01.004},
+doi = {10.1016/j.artmed.2014.01.004},
+abstract = {Objective: We investigate machine translation (MT) of user search queries in the context of cross-lingual information retrieval (IR) in the medical domain. The main focus is on techniques to adapt MT to increase translation quality; however, we also explore MT adaptation to improve effectiveness of cross-lingual IR. Methods and data: Our MT system is Moses, a state-of-the-art phrase-based statistical machine translation system. The IR system is based on the BM25 retrieval model implemented in the Lucene search engine. The MT techniques employed in this work include in-domain training and tuning, intelligent training data selection, optimization of phrase table configuration, compound splitting, and exploiting synonyms as translation variants. The IR methods include morphological normalization and using multiple translation variants for query expansion. The experiments are performed and thoroughly evaluated on three language pairs: Czech-English, German-English, and French-English. MT quality is evaluated on data sets created within the Khresmoi project and IR effectiveness is tested on the CLEF eHealth 2013 data sets. Results: The search query translation results achieved in our experiments are outstanding - our systems outperform not only our strong baselines, but also Google Translate and Microsoft Bing Translator in direct comparison carried out on all the language pairs. The baseline BLEU scores increased from 26.59 to 41.45 for Czech-English, from 23.03 to 40.82 for German-English, and from 32.67 to 40.82 for French-English. This is a 55\% improvement on average. In terms of the IR performance on this particular test collection, a significant improvement over the baseline is achieved only for French-English. For Czech-English and German-English, the increased MT quality does not lead to better IR results. Conclusions: Most of the MT techniques employed in our experiments improve MT of medical search queries. Especially the intelligent training data selection proves to be very successful for domain adaptation of MT. Certain improvements are also obtained from German compound splitting on the source language side. Translation quality, however, does not appear to correlate with the IR performance - better translation does not necessarily yield better retrieval. We discuss in detail the contribution of the individual techniques and state-of-the-art features and provide future research directions.},
+journal = {Artificial Intelligence in Medicine},
+pages = {165-–185},
+}
+
+
+
+@article{LeafCT,
+    author  = {Nicholas Dobbins and Tony Mullen and Özlem Uzuner and Meliha Yetisgen}, 
+    title   = {The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria}, 
+    journal = {Sci Data},
+    volume  = {9}, 
+    number  = {490}, 
+    year = {2022},
+    doi = {10.1038/s41597-022-01521-0}
+}
+
+@article{TrialGPT:2024,
+    author = {Qiao Jin and Zifeng Wang and Charalampos Floudas and Fangyuan Chen and Changlin Gong and Dara Bracken-Clarke and Elisabetta Xue and Yifan Yang and Jimeng Sun and Zhiyong Lu},
+    title   = {Matching patients to clinical trials with large language models},
+    journal = {Nature Communications},
+    year    = {2024},
+    volume  = {15},
+    number  = {1},
+    pages   = {9074},
+    doi     = {10.1038/s41467-024-53081-z},
+
+}
+
+@inproceedings{ustun-etal-2024-aya,
+    title = "{Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model}",
+    author = {{\"U}st{\"u}n, Ahmet  and
+      Aryabumi, Viraat  and
+      Yong, Zheng  and
+      Ko, Wei-Yin  and
+      D{'}souza, Daniel  and
+      Onilude, Gbemileke  and
+      Bhandari, Neel  and
+      Singh, Shivalika  and
+      Ooi, Hui-Lee  and
+      Kayid, Amr  and
+      Vargus, Freddie  and
+      Blunsom, Phil  and
+      Longpre, Shayne  and
+      Muennighoff, Niklas  and
+      Fadaee, Marzieh  and
+      Kreutzer, Julia  and
+      Hooker, Sara},
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+    year = "2024",
+    url = "https://aclanthology.org/2024.acl-long.845/",
+    doi = "10.18653/v1/2024.acl-long.845",
+    pages = "15894--15939",
+}
+
 @techreport{Oard:Dorr:1996,
 author = {Oard, Douglas and Dorr, Bonnie},
 title = {A survey of multilingual text retrieval},
@@ -9,12 +72,10 @@ address = {USA}
 @inproceedings{davis-1996-advances,
     title = "Advances in Multilingual Text Retrieval",
     author = "Davis, Mark",
-    booktitle = "TIPSTER TEXT PROGRAM PHASE II: Proceedings of a Workshop held at Vienna, Virginia, May 6-8, 1996",
-    month = may,
+    booktitle = "TIPSTER TEXT PROGRAM PHASE II Proceedings",
     year = "1996",
     address = "Vienna, Virginia, USA",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/X96-1035/",
     doi = "10.3115/1119018.1119057",
     pages = "185--194"
 }
